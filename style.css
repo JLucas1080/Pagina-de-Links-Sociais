@@ -11,7 +11,7 @@ body{
 }
 
 p{
-    color: hsl(75, 94%, 57%);
+    
     margin-bottom: 10%;
 }
 
@@ -20,6 +20,7 @@ p{
     height: 700px; 
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
+    padding-top: 60px;
 }
 
 .container{
@@ -31,9 +32,15 @@ p{
     margin-bottom: 10%;
 
 }
-
+h2{
+    font-size: 1rem;
+    color: hsl(75, 94%, 57%);
+}
 
 a{
+    font-weight: bold;
+    text-decoration: none;
+    transition: 1s;
     color: hsl(0, 0%, 100%);
     border-radius: 10px;
     display: block;
@@ -44,6 +51,13 @@ a{
     background-color: hsl(0, 0%, 20%);
     margin: 10px auto 10px auto;
 
+}
+
+.button:hover{
+    transition: all 1s;
+    background-color: hsl(75, 94%, 30%);
+    transform: scale(1.05);
+    
 }
 
 img[alt="avatar"] {
